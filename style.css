@@ -1,0 +1,278 @@
+@media screen and (max-width : 576px){
+  #hero {
+      color: white;
+      padding-top: 30%;
+  }
+  #about,
+  #experience,
+  #licence,
+  #project,
+  #contact {
+      color: white;
+      padding: 25% 0% 50% 10%;
+  }
+  h1 {
+    font-family: Poppins-ExtraBold;
+    font-size: 30px;
+  }
+  h2 {
+    font-family: Poppins-SemiBold;
+    color: white;
+  }
+  h4 {
+    font-family: Poppins-Regular;
+    font-size: 12px;
+  }
+  
+  h6 {
+    font-family: Poppins-Regular;
+    font-size: 12px;
+  }
+  main {
+    background-color: #181D31;
+  }
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url('fonts/poppins/Poppins-Regular.ttf'); 
+}
+  
+@font-face {
+    font-family: Poppins-Medium;
+    src: url('fonts/poppins/Poppins-Medium.ttf'); 
+}
+  
+@font-face {
+    font-family: Poppins-Bold;
+    src: url('fonts/poppins/Poppins-Bold.ttf'); 
+}
+  
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url('fonts/poppins/Poppins-SemiBold.ttf'); 
+}
+
+@font-face {
+    font-family: Poppins-ExtraBold;
+    src: url('fonts/poppins/Poppins-ExtraBold.ttf'); 
+}
+
+h1 {
+  font-family: Poppins-ExtraBold;
+  font-size: 40px;
+}
+h2 {
+  font-family: Poppins-SemiBold;
+  color: white;
+}
+h4 {
+  font-family: Poppins-Regular;
+  font-size: 16px;
+}
+
+h6 {
+  font-family: Poppins-Regular;
+  font-size: 16px;
+}
+
+main {
+  background-color: #181D31;
+}
+
+/* HERO */
+#hero {
+  color: white;
+  padding: 20%;
+  text-align: center;
+}
+
+#hero .btn-scroll {
+  transition: 0.4s;
+  color: white;
+  animation: up-down 1s ease-in-out infinite alternate-reverse both;
+  
+}
+
+#hero .btn-scroll i {
+  font-size: 30px;
+
+}
+
+#hero .btn-scroll:hover {
+  color: #E94560;
+}
+
+#about,
+#experience,
+#licence,
+#project,
+#contact {
+  color: white;
+  padding: 8% 10% 10% 10%;
+}
+
+/* NAVIGATION BAR */
+.nav-link {
+  font-family: Poppins-Medium;
+  font-size: 16px;
+  color: white !important;
+}
+
+.mobile-nav-toggle {
+  color: #fff;
+  font-size: 28px;
+  cursor: pointer;
+  display: none;
+  line-height: 0;
+  transition: 0.5s;
+}
+
+/* ABOUT */
+.about-img {
+  text-align: center;
+  width: 30%;
+  padding-top: 10%;
+}
+
+.about-text {
+  padding-top: 10%;
+}
+
+/* EXXPERIENCE */
+.experience .container {
+  padding-top: 3%;
+  padding-left: 10%;
+}
+
+.experience .experience-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #82909c;
+  position: relative;
+  font-family: Poppins-Regular;
+}
+
+.experience .experience-item h4 {
+  line-height: 18px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #E94560;
+  margin-bottom: 10px;
+  font-family: Poppins-Medium;
+}
+
+.experience .experience-item h5 {
+  font-size: 16px;
+  background: #E94560;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.experience .experience-item ul {
+  padding-left: 20px;
+}
+
+.experience .experience-item ul li {
+  padding-bottom: 10px;
+}
+
+.experience .experience-item:last-child {
+  padding-bottom: 0;
+}
+
+.experience .experience-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid white;
+}
+
+/* LICENCE */
+.licence .icon-box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  background: #E94560;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  border: 1px solid #E94560;
+  border-radius: 5%;
+}
+.licence .icon {
+  margin: 0 auto 20px auto;
+  padding-top: 17px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background: #181D31;
+}
+.licence .icon-box:hover {
+  border-color: white;
+}
+
+.licence .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.licence .description {
+  font-size: 15px;
+  font-family: Poppins-Regular;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+.linkCertif {
+  font-family: Poppins-Regular;
+  color: #181D31;
+}
+
+.licence .container {
+  padding-top: 5%;
+}
+
+/* PROJECT */
+.img-project {
+  width: 400px;
+
+}
+
+.project-img {
+  width: auto;
+}
+
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+
+/* CONTACT */
+.social-media,
+.email-me,
+.form-email{
+  font-family: Poppins-Regular;
+}
+
+.instagram, 
+.linkedin,
+.whatsapp {
+  padding-right: 2%;
+}
+
+.btn-send-message:hover {
+  color: #E94560;
+}
+
